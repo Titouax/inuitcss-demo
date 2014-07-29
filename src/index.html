@@ -28,7 +28,7 @@
 				<li>Provides a preview HTML template using the compiled CSS. </li>
 			</ol>
 			<p class="lede"><a href="https://github.com/desgnl/inuitcss-demo">Go on Github</a> and follow the instructions if you would like to try.</p>
-			<p><a href="https://github.com/inuitcss">Inuitcss</a> is a CSS framework made by <a href="http://csswizardry.com/">Harry Roberts</a>. There is a <a href="https://github.com/inuitcss/getting-started">getting started</a> section on the official project github, but it was already too advanced for me. I made this small project to learn more about it. The CSS file compiled here is not intended to be re-used like this. The authors made it clear that the philosophy of Inuitcss is to be "off" by default and each modules has to be included depending on the need of a specific project. </p>
+			<p><a href="https://github.com/inuitcss">Inuitcss</a> is a CSS framework made by <a href="http://csswizardry.com/">Harry Roberts</a>. There is a <a href="https://github.com/inuitcss/getting-started">getting started</a> section on the official project github, but it doesn't give a clear overview of what the framework can do. I made this small project to learn more about it. The CSS file compiled here is not intended to be re-used like this. The authors made it clear that the philosophy of Inuitcss is to be "off" by default and each modules has to be included depending on the need of a specific project. </p>
 		</div>
 		
 		<hr class="mb+"/>
@@ -89,15 +89,15 @@
 						<li><a href="#trumps-clearfix">trumps.clearfix</a></li>
 						<li><a href="#trumps-print">trumps.print</a></li>
 						<li><a href="#trumps-spacing">trumps.spacing</a></li>
+						<li><a href="#trumps-spacing-responsive">trumps.spacing-responsive</a></li>
 						<li><a href="#trumps-widths">trumps.widths</a></li>
 						<li><a href="#trumps-widths-responsive">trumps.widths-responsive</a></li>
-						<li><a href="#trumps-spacing-responsive">trumps.spacing-responsive</a></li>
 					</ul>
 				</li>
 			</ul>
 		</div>
 		
-		<h2 class="brand" id="generic">Settings</h2>
+		<h2 class="brand" id="settings">Settings</h2>
 		<div class="mb+" id="settings-defaults">
 			<h3 class="brand">settings-defaults</h3>
 		</div>
@@ -164,13 +164,13 @@
 		
 		<h2 class="brand" id="base">Base</h2>
 		
-		<div class="mb+">
-			<h3 class="brand" id="base-page">base.page</h3>
+		<div class="mb+" id="base-page">
+			<h3 class="brand">base.page</h3>
 			
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="base-headings">base.headings</h3>
+		<div class="mb+" id="base-headings">
+			<h3 class="brand">base.headings</h3>
 			
 			<h1>Title h1 / .alpha</h1>
 			<h2>Title h2 / .beta</h2>
@@ -180,8 +180,8 @@
 			<h6>Title h6 / .zeta</h6>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="base-paragraphs">base.paragraphs</h3>
+		<div class="mb+" id="base-paragraphs">
+			<h3 class="brand">base.paragraphs</h3>
 			
 			<p class="lede">
 				Paragraph with class="lede": Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam quis risus eget urna mollis ornare vel eu leo.
@@ -191,8 +191,8 @@
 			<span class="box">&#60;span&#62; with a "box" class 2</span>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="base-lists">base.lists</h3>
+		<div class="mb+" id="base-lists">
+			<h3 class="brand">base.lists</h3>
 			<ul>
 				<li>list element 1</li>
 				<li>list element 2</li>
@@ -226,15 +226,15 @@
 			</ol>
 		</div>
 		
-		<div class="mb+">
-		 	<h3 class="brand" id="base-images">base.images</h3>
+		<div class="mb+" id="base-images">
+		 	<h3 class="brand">base.images</h3>
 			<img src="http://placehold.it/480x320">
 		</div>
 		
 		<h2 class="brand" id="objects">Objects</h2>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-layout">objects.layout</h3>
+		<div class="mb+" id="objects-layout">
+			<h3 class="brand">objects.layout</h3>
 			<div class="layout">
 				<div class="layout__item">The inuitcss layout system uses `box-sizing: border-box;` and `display: inline-block;` to create an extremely powerful, flexible alternative to the traditional grid system.</div>
 				<div class="layout__item">Combine the layout items with the widths found in `trumps.widths`.</div>
@@ -242,8 +242,13 @@
 			
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-media">objects.media</h3>
+		<div class="mb+" id="objects-box">
+			<h3 class="brand">objects.box</h3>
+			
+		</div>
+		
+		<div class="mb+" id="objects-media">
+			<h3 class="brand">objects.media</h3>
 			<p>Place any image- and text-like content side-by-side, as per: stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
 			</p>
 			<div class="media">
@@ -254,8 +259,8 @@
 			</div>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-flag">objects.flag</h3>
+		<div class="mb+" id="objects-flag">
+			<h3 class="brand">objects.flag</h3>
 			<p>The flag object is a design pattern similar to the media object, however it utilises `display: table[-cell];` to give us control over the vertical alignments of the text and image. <a href="http://csswizardry.com/2013/05/the-flag-object">csswizardry.com/2013/05/the-flag-object</a></p>
 			<div class="flag">
 				<div class="flag__body">
@@ -266,15 +271,15 @@
 			</div>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-buttons">objects.buttons</h3>
+		<div class="mb+" id="objects-buttons">
+			<h3 class="brand">objects.buttons</h3>
 			<button>Button with no class</button>
 			<button class="btn">&#60;Button&#62; with class="btn"</button>
 			<a class="btn" href="#">&#60;a&#62; with class="btn"</a>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-list-bare">objects.list-bare</h3>
+		<div class="mb+" id="objects-list-bare">
+			<h3 class="brand">objects.list-bare</h3>
 			<p>The list-bare object simply removes any indents and bullet points from lists.</p>
 			<ul class="list-bare">
 				<li>list element 1</li>
@@ -293,8 +298,8 @@
 			</ul>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-list-block">objects.list-block</h3>
+		<div class="mb+" id="objects-list-block">
+			<h3 class="brand">objects.list-block</h3>
 			<p>The list-block object creates blocky list items out of a `ul` or `ol`.</p>
 			<ul class="list-block">
 				<li>list element 1</li>
@@ -313,8 +318,8 @@
 			</ul>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-list-inline">objects.list-inline</h3>
+		<div class="mb+" id="objects-list-inline">
+			<h3 class="brand">objects.list-inline</h3>
 			<p>The list-block object creates blocky list items out of a `ul` or `ol`.</p>
 			<ul class="list-inline">
 				<li>list element 1, </li>
@@ -333,8 +338,8 @@
 			</ul>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-list-ui">objects.list-ui</h3>
+		<div class="mb+" id="objects-list-ui">
+			<h3 class="brand">objects.list-ui</h3>
 			<p>The UI list object creates blocky list items with a keyline separator out of a `ul` or `ol`.</p>
 			<ul class="list-ui">
 				<li>list element 1, </li>
@@ -353,8 +358,8 @@
 			</ul>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-tables">objects.tables</h3>
+		<div class="mb+" id="objects-tables">
+			<h3 class="brand">objects.tables</h3>
 			<table>
 				<thead>
 					<tr>
@@ -447,8 +452,8 @@
 			</table>
 		</div>
 		
-		<div class="mb+">
-			<h3 class="brand" id="objects-tabs">objects.tabs</h3>
+		<div class="mb+" id="objects-tabs">
+			<h3 class="brand">objects.tabs</h3>
 			<p>A simple abstraction for making equal-width navigation tabs.</p>
 			<ul class="tabs">
 				<li class="tabs__item"><a href="#" class="tabs__link">Tab 1</a></li>
@@ -458,12 +463,28 @@
 			</ul>
 		</div>
 		
-		<h2 id="components">Components</h2>
+		<h2 class="brand" id="components">Components</h2>
 		
-		<h2 id="trumps">Trumps</h2>
+		<h2 class="brand" id="trumps">Trumps</h2>
 		
-		<div class="mb+">
-			<h3 class="brand" id="trumps-widths">trumps.widths</h3>
+		<div class="mb+" id="trumps-clearfix">
+			<h3 class="brand">trumps.clearfix</h3>
+		</div>
+		
+		<div class="mb+" id="trumps-print">
+			<h3 class="brand">trumps.print</h3>
+		</div>
+		
+		<div class="mb+" id="trumps-spacing">
+			<h3 class="brand">trumps.spacing</h3>
+		</div>
+		
+		<div class="mb+" id="trumps-spacing-responsive">
+			<h3 class="brand">trumps.spacing-responsive</h3>
+		</div>
+		
+		<div class="mb+" id="trumps-widths">
+			<h3 class="brand">trumps.widths</h3>
 			<div class="layout">
 				<div class="layout__item 1/1">1/1</div>
 			</div>
@@ -542,498 +563,502 @@
 			</div>
 		</div>
 		
-		<div class="mb+">
+		<div class="mb+" id="trumps-widths-responsive">
 		
-			<h3 class="brand" id="trumps-widths-responsive">trumps.widths-responsive</h3>
+			<h3 class="brand">trumps.widths-responsive</h3>
 			
-			<h4 class="brand">class="palm-": max-width: 719px </h4>
+			<div class="mb">
 			
-			<div class="layout">
-				<div class="layout__item palm-1/1">Palm 1/1</div>
+				<h4 class="brand">class="palm-": max-width: 719px </h4>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/1">Palm 1/1</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/2">Palm 1/2</div>
+					<div class="layout__item palm-1/2">Palm 1/2</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/3">Palm 1/3</div>
+					<div class="layout__item palm-1/3">Palm 1/3</div>
+					<div class="layout__item palm-1/3">Palm 1/3</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/4">Palm 1/4</div>
+					<div class="layout__item palm-1/4">Palm 1/4</div>
+					<div class="layout__item palm-1/4">Palm 1/4</div>
+					<div class="layout__item palm-1/4">Palm 1/4</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/5">Palm 1/5</div>
+					<div class="layout__item palm-1/5">Palm 1/5</div>
+					<div class="layout__item palm-1/5">Palm 1/5</div>
+					<div class="layout__item palm-1/5">Palm 1/5</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/6">Palm 1/6</div>
+					<div class="layout__item palm-1/6">Palm 1/6</div>
+					<div class="layout__item palm-1/6">Palm 1/6</div>
+					<div class="layout__item palm-1/6">Palm 1/6</div>
+					<div class="layout__item palm-1/6">Palm 1/6</div>
+					<div class="layout__item palm-1/6">Palm 1/6</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+					<div class="layout__item palm-1/8">Palm 1/8</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+					<div class="layout__item palm-1/10">Palm 1/10</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+					<div class="layout__item palm-1/12">Palm 1/12</div>
+				</div>
 			</div>
+		
+			<div class="mb">
+				
+				<h4 class="brand">class="lap-": min-width: 720px and max-width: 1023px </h4>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/1">Lap 1/1</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/2">Lap 1/2</div>
+					<div class="layout__item lap-1/2">Lap 1/2</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/3">Lap 1/3</div>
+					<div class="layout__item lap-1/3">Lap 1/3</div>
+					<div class="layout__item lap-1/3">Lap 1/3</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/4">Lap 1/4</div>
+					<div class="layout__item lap-1/4">Lap 1/4</div>
+					<div class="layout__item lap-1/4">Lap 1/4</div>
+					<div class="layout__item lap-1/4">Lap 1/4</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/5">Lap 1/5</div>
+					<div class="layout__item lap-1/5">Lap 1/5</div>
+					<div class="layout__item lap-1/5">Lap 1/5</div>
+					<div class="layout__item lap-1/5">Lap 1/5</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/6">Lap 1/6</div>
+					<div class="layout__item lap-1/6">Lap 1/6</div>
+					<div class="layout__item lap-1/6">Lap 1/6</div>
+					<div class="layout__item lap-1/6">Lap 1/6</div>
+					<div class="layout__item lap-1/6">Lap 1/6</div>
+					<div class="layout__item lap-1/6">Lap 1/6</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+					<div class="layout__item lap-1/8">Lap 1/8</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+					<div class="layout__item lap-1/10">Lap 1/10</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+					<div class="layout__item lap-1/12">Lap 1/12</div>
+				</div>
 			
-			<div class="layout">
-				<div class="layout__item palm-1/2">Palm 1/2</div>
-				<div class="layout__item palm-1/2">Palm 1/2</div>
 			</div>
-			
-			<div class="layout">
-				<div class="layout__item palm-1/3">Palm 1/3</div>
-				<div class="layout__item palm-1/3">Palm 1/3</div>
-				<div class="layout__item palm-1/3">Palm 1/3</div>
+		
+			<div class="mb">
+				<h4 class="brand">class="lap-and-up-": min-width: 720px </h4>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/1">Lap and up 1/1</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
+					<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
+					<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
+					<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+				</div>
 			</div>
+		
+			<div class="mb">
 			
-			<div class="layout">
-				<div class="layout__item palm-1/4">Palm 1/4</div>
-				<div class="layout__item palm-1/4">Palm 1/4</div>
-				<div class="layout__item palm-1/4">Palm 1/4</div>
-				<div class="layout__item palm-1/4">Palm 1/4</div>
+				<h4 class="brand">class="lap-and-up-": min-width: 720px </h4>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/1">Lap and up 1/1</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
+					<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
+					<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
+					<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+					<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+					<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+					<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+					<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+					<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+					<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
+				</div>
 			</div>
-			
-			<div class="layout">
-				<div class="layout__item palm-1/5">Palm 1/5</div>
-				<div class="layout__item palm-1/5">Palm 1/5</div>
-				<div class="layout__item palm-1/5">Palm 1/5</div>
-				<div class="layout__item palm-1/5">Palm 1/5</div>
+		
+			<div class="mb">
+				<h4 class="brand">class="portable-": max-width: 1023px </h4>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/1">Portable 1/1</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/2">Portable 1/2</div>
+					<div class="layout__item portable-1/2">Portable 1/2</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/3">Portable 1/3</div>
+					<div class="layout__item portable-1/3">Portable 1/3</div>
+					<div class="layout__item portable-1/3">Portable 1/3</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/4">Portable 1/4</div>
+					<div class="layout__item portable-1/4">Portable 1/4</div>
+					<div class="layout__item portable-1/4">Portable 1/4</div>
+					<div class="layout__item portable-1/4">Portable 1/4</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/5">Portable 1/5</div>
+					<div class="layout__item portable-1/5">Portable 1/5</div>
+					<div class="layout__item portable-1/5">Portable 1/5</div>
+					<div class="layout__item portable-1/5">Portable 1/5</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/6">Portable 1/6</div>
+					<div class="layout__item portable-1/6">Portable 1/6</div>
+					<div class="layout__item portable-1/6">Portable 1/6</div>
+					<div class="layout__item portable-1/6">Portable 1/6</div>
+					<div class="layout__item portable-1/6">Portable 1/6</div>
+					<div class="layout__item portable-1/6">Portable 1/6</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+					<div class="layout__item portable-1/8">Portable 1/8</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+					<div class="layout__item portable-1/10">Portable 1/10</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+					<div class="layout__item portable-1/12">Portable 1/12</div>
+				</div>
 			</div>
-			
-			<div class="layout">
-				<div class="layout__item palm-1/6">Palm 1/6</div>
-				<div class="layout__item palm-1/6">Palm 1/6</div>
-				<div class="layout__item palm-1/6">Palm 1/6</div>
-				<div class="layout__item palm-1/6">Palm 1/6</div>
-				<div class="layout__item palm-1/6">Palm 1/6</div>
-				<div class="layout__item palm-1/6">Palm 1/6</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-				<div class="layout__item palm-1/8">Palm 1/8</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-				<div class="layout__item palm-1/10">Palm 1/10</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
-				<div class="layout__item palm-1/12">Palm 1/12</div>
+		
+			<div class="mb">
+				<h4 class="brand">class="desk-": min-width: 1024px </h4>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/1">Desk 1/1</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/2">Desk 1/2</div>
+					<div class="layout__item desk-1/2">Desk 1/2</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/3">Desk 1/3</div>
+					<div class="layout__item desk-1/3">Desk 1/3</div>
+					<div class="layout__item desk-1/3">Desk 1/3</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/4">Desk 1/4</div>
+					<div class="layout__item desk-1/4">Desk 1/4</div>
+					<div class="layout__item desk-1/4">Desk 1/4</div>
+					<div class="layout__item desk-1/4">Desk 1/4</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/5">Desk 1/5</div>
+					<div class="layout__item desk-1/5">Desk 1/5</div>
+					<div class="layout__item desk-1/5">Desk 1/5</div>
+					<div class="layout__item desk-1/5">Desk 1/5</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/6">Desk 1/6</div>
+					<div class="layout__item desk-1/6">Desk 1/6</div>
+					<div class="layout__item desk-1/6">Desk 1/6</div>
+					<div class="layout__item desk-1/6">Desk 1/6</div>
+					<div class="layout__item desk-1/6">Desk 1/6</div>
+					<div class="layout__item desk-1/6">Desk 1/6</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+					<div class="layout__item desk-1/8">Desk 1/8</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+					<div class="layout__item desk-1/10">Desk 1/10</div>
+				</div>
+				
+				<div class="layout">
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+					<div class="layout__item desk-1/12">Desk 1/12</div>
+				</div>
 			</div>
 		</div>
 		
-		<div class="mb+">
-			
-			<h4 class="brand">class="lap-": min-width: 720px and max-width: 1023px </h4>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/1">Lap 1/1</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/2">Lap 1/2</div>
-				<div class="layout__item lap-1/2">Lap 1/2</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/3">Lap 1/3</div>
-				<div class="layout__item lap-1/3">Lap 1/3</div>
-				<div class="layout__item lap-1/3">Lap 1/3</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/4">Lap 1/4</div>
-				<div class="layout__item lap-1/4">Lap 1/4</div>
-				<div class="layout__item lap-1/4">Lap 1/4</div>
-				<div class="layout__item lap-1/4">Lap 1/4</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/5">Lap 1/5</div>
-				<div class="layout__item lap-1/5">Lap 1/5</div>
-				<div class="layout__item lap-1/5">Lap 1/5</div>
-				<div class="layout__item lap-1/5">Lap 1/5</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/6">Lap 1/6</div>
-				<div class="layout__item lap-1/6">Lap 1/6</div>
-				<div class="layout__item lap-1/6">Lap 1/6</div>
-				<div class="layout__item lap-1/6">Lap 1/6</div>
-				<div class="layout__item lap-1/6">Lap 1/6</div>
-				<div class="layout__item lap-1/6">Lap 1/6</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-				<div class="layout__item lap-1/8">Lap 1/8</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-				<div class="layout__item lap-1/10">Lap 1/10</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-				<div class="layout__item lap-1/12">Lap 1/12</div>
-			</div>
-		
-		</div>
-		
-		<div class="mb+">
-			<h4 class="brand">class="lap-and-up-": min-width: 720px </h4>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/1">Lap and up 1/1</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
-				<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
-				<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
-				<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-			</div>
-		</div>
-		
-		<div class="mb+">
-		
-			<h4 class="brand">class="lap-and-up-": min-width: 720px </h4>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/1">Lap and up 1/1</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
-				<div class="layout__item lap-and-up-1/2">Lap and up 1/2</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
-				<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
-				<div class="layout__item lap-and-up-1/3">Lap and up 1/3</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-				<div class="layout__item lap-and-up-1/4">Lap and up 1/4</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-				<div class="layout__item lap-and-up-1/5">Lap and up 1/5</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-				<div class="layout__item lap-and-up-1/6">Lap and up 1/6</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-				<div class="layout__item lap-and-up-1/8">Lap and up 1/8</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-				<div class="layout__item lap-and-up-1/10">Lap and up 1/10</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-				<div class="layout__item lap-and-up-1/12">Lap and up 1/12</div>
-			</div>
-		</div>
-		
-		<div class="mb+">
-			<h4 class="brand">class="portable-": max-width: 1023px </h4>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/1">Portable 1/1</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/2">Portable 1/2</div>
-				<div class="layout__item portable-1/2">Portable 1/2</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/3">Portable 1/3</div>
-				<div class="layout__item portable-1/3">Portable 1/3</div>
-				<div class="layout__item portable-1/3">Portable 1/3</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/4">Portable 1/4</div>
-				<div class="layout__item portable-1/4">Portable 1/4</div>
-				<div class="layout__item portable-1/4">Portable 1/4</div>
-				<div class="layout__item portable-1/4">Portable 1/4</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/5">Portable 1/5</div>
-				<div class="layout__item portable-1/5">Portable 1/5</div>
-				<div class="layout__item portable-1/5">Portable 1/5</div>
-				<div class="layout__item portable-1/5">Portable 1/5</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/6">Portable 1/6</div>
-				<div class="layout__item portable-1/6">Portable 1/6</div>
-				<div class="layout__item portable-1/6">Portable 1/6</div>
-				<div class="layout__item portable-1/6">Portable 1/6</div>
-				<div class="layout__item portable-1/6">Portable 1/6</div>
-				<div class="layout__item portable-1/6">Portable 1/6</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-				<div class="layout__item portable-1/8">Portable 1/8</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-				<div class="layout__item portable-1/10">Portable 1/10</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-				<div class="layout__item portable-1/12">Portable 1/12</div>
-			</div>
-		</div>
-		
-		<div class="mb+">
-			<h4 class="brand">class="desk-": min-width: 1024px </h4>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/1">Desk 1/1</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/2">Desk 1/2</div>
-				<div class="layout__item desk-1/2">Desk 1/2</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/3">Desk 1/3</div>
-				<div class="layout__item desk-1/3">Desk 1/3</div>
-				<div class="layout__item desk-1/3">Desk 1/3</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/4">Desk 1/4</div>
-				<div class="layout__item desk-1/4">Desk 1/4</div>
-				<div class="layout__item desk-1/4">Desk 1/4</div>
-				<div class="layout__item desk-1/4">Desk 1/4</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/5">Desk 1/5</div>
-				<div class="layout__item desk-1/5">Desk 1/5</div>
-				<div class="layout__item desk-1/5">Desk 1/5</div>
-				<div class="layout__item desk-1/5">Desk 1/5</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/6">Desk 1/6</div>
-				<div class="layout__item desk-1/6">Desk 1/6</div>
-				<div class="layout__item desk-1/6">Desk 1/6</div>
-				<div class="layout__item desk-1/6">Desk 1/6</div>
-				<div class="layout__item desk-1/6">Desk 1/6</div>
-				<div class="layout__item desk-1/6">Desk 1/6</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-				<div class="layout__item desk-1/8">Desk 1/8</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-				<div class="layout__item desk-1/10">Desk 1/10</div>
-			</div>
-			
-			<div class="layout">
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-				<div class="layout__item desk-1/12">Desk 1/12</div>
-			</div>
-		</div>
-	</div>
+	</div><!--/main-->
 	<a href="https://github.com/desgnl/inuitcss-demo"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/a6677b08c955af8400f44c6298f40e7d19cc5b2d/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677261795f3664366436642e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png"></a>
 </body>
 </html>
