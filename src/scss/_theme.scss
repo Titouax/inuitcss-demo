@@ -1,0 +1,21 @@
+// ugly trick to see elements and nesting
+// *:nth-child(n) { background-color: rgba(255,255,0,.2); }
+
+.main {
+	margin:24px;
+}
+
+h3.brand {
+	border-bottom: 2px dotted gray;
+	padding-bottom: 10px;
+} 
+.brand {
+	color: #4a8ec2; 
+}
+
+@media screen and (min-width: 1024px) {
+	.main {
+		margin:24px auto;
+		width:992px;
+	}
+}
